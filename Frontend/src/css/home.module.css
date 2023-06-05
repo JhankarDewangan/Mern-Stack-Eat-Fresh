@@ -1,0 +1,86 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 5vh;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 3vh;
+}
+p {
+  font-size: 2vh;
+}
+
+.homecontain {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.top {
+  height: 25vh;
+  align-items: center;
+  display: flex;
+}
+.homelogo {
+  padding-left: 5%;
+  height: 33vh;
+}
+.login {
+  margin-left: 58%;
+  margin-top: 5%;
+  align-self: flex-start;
+}
+.signup {
+  margin-left: 2%;
+  margin-top: 5%;
+  align-self: flex-start;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 4;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  flex-grow: 3;
+}
+
+form {
+  width: 60%;
+}
+.homeCheckPlansButton {
+  height: 10vh;
+  width: 20vw;
+  background-color: orange;
+  border-radius: 3vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 33%;
+}
+
+.homeCheckPlansButton > h3 {
+  margin-top: 2%;
+}
+.homeCheckPlansButton:hover {
+  border: 2px solid white;
+}

@@ -1,0 +1,78 @@
+.plansBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1vh;
+  height: 65vh;
+}
+
+.dashLeft {
+  height: 47vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(217, 217, 217, 0.6);
+  height: 47vh;
+  width: 58vw;
+  border-radius: 8vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid orange;
+}
+
+.dashText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mealPlans {
+  height: 55%;
+  width: 92%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.customPlan {
+  height: 27%;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 3vh;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customPlan:hover {
+  border: 1px solid red;
+}
+
+.planType {
+  height: 40%;
+  width: 48%;
+  border-radius: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: white;
+}
+
+.planType:hover {
+  border: 2px solid red;
+}
+
+/* 22 percent buttons */

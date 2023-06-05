@@ -1,0 +1,345 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(217, 217, 217, 0.6);
+  height: 47vh;
+  width: 50vw;
+  border-radius: 8vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid orange;
+}
+
+.cardDays {
+  background-color: rgba(217, 217, 217, 0.6);
+  height: 47vh;
+  width: 50vw;
+  border-radius: 8vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.details {
+  height: 47vh;
+  width: 25vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1vh;
+  height: 65vh;
+}
+
+.innerCard1 {
+  height: 55%;
+  width: 92%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.innerCard1 > div {
+  height: 40%;
+  width: 32%;
+  border-radius: 3vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: white;
+}
+
+.innerCard1 > div:hover {
+  border: 2px solid red;
+}
+
+.innerCard2 {
+  height: 27%;
+  width: 90%;
+  border-radius: 3vh;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: white;
+}
+
+.innerCard2:hover {
+  border: 1px solid red;
+}
+
+.pricing {
+  height: 22vh;
+  width: 100%;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(217, 217, 217, 0.6);
+}
+
+/* .addAddr {
+  height: 11vh;  // add Address button removed from planPages
+  width: 100%;
+  background-color: greenyellow;
+  border-radius: 3vh;
+  background-color: rgba(255, 165, 0, 0.9);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addAddr:hover {
+  border: 2px solid red;
+} */
+
+.checkout {
+  height: 11vh;
+  width: 100%;
+  border-radius: 3vh;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout:hover {
+  border: 2px solid red;
+}
+
+.pricing > div {
+  height: 20%;
+  width: 94%;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 3vh;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing > div > p {
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.dayBar {
+  height: 25%;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 3vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mealTypeBar {
+  height: 17%;
+  width: 90%;
+  background-color: rgba(255, 165, 0, 0.9);
+  border-radius: 3vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.mealTypeBar:hover {
+  border: 2px solid white;
+}
+
+/* ////////////////// mealDetail page stylings ////////////*/
+
+.cardMealDetail {
+  background-color: rgba(217, 217, 217, 0.6);
+  height: 47vh;
+  width: 50vw;
+  border-radius: 8vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardInnerMeals {
+  height: 65%;
+  width: 95%;
+
+  border-radius: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardInnerMeals > div {
+  width: 30%;
+  height: 30%;
+  background-color: rgba(255, 165, 0, 0.9);
+  border-radius: 3vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 1.2vw;
+}
+
+.cardInnerMeals > div > p {
+  margin-top: 5%;
+}
+
+/* /////// checkout.js styles ////////// */
+
+/* .checkoutLeft {
+  height: 52vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.checkoutRight {
+  height: 52vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.planSelectCard {
+  height: 50%;
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.6);
+  border-radius: 3vh;
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.checkoutAddr {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkoutAddr > div {
+  height: 40%;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 3vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkoutAddr > div:hover {
+  border: 2px solid white;
+}
+.checkoutAddr > div > h3 {
+  margin-top: 2.5%;
+}
+
+.checkoutPricingCard {
+  height: 75%;
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.6);
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.checkoutPayment {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.checkoutPayment > div {
+  height: 95%;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  border-radius: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkoutPayment > div > h3 {
+  margin-top: 2%;
+}
+
+.checkoutPayment > div:hover {
+  border: 2px solid white;
+}
+
+.checkoutPricingCard > div {
+  height: 16%;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.checkoutPricingCard > div > h3 {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 4%;
+}
+.planDropDown {
+  height: 30%;
+  width: 90%;
+  background-color: rgba(81, 153, 56, 0.69);
+  border-radius: 3vh;
+  display: flex;
+  color: white;
+  font-size: 3vh;
+  font-weight: bolder;
+  text-align-last: center;
+}
+
+.planDropDown > option {
+  margin-left: 5%;
+}
+
+.daysDropDown {
+  height: 30%;
+  width: 50%;
+
+  border-radius: 3vh;
+  display: flex;
+  color: white;
+  font-size: 3vh;
+  font-weight: bolder;
+  text-align-last: center;
+  margin-right: 38%;
+
+  background-color: rgba(0, 0, 0, 0.65);
+} */
